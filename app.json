@@ -9,4 +9,11 @@
       "heroku-postgresql:hobby-dev"
     }
   ]
+  “environments”: {
+    “test”: {
+      “scripts”: {
+        “test”: “phpunit”
+      }
+    }
+  }
 }
